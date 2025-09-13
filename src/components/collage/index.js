@@ -15,11 +15,11 @@ const Collage = () => {
 
     return (
         <CollageCont>
-            <CollageItem onClick={() => openNewTab('https://x.com/julia_codes/status/1926475308305457434')} data-label="Content Scheduling"><img src={CollageImage1} alt="Scheduler" /></CollageItem>
-            <CollageItem data-label="Trivia Game Design"><img src={CollageGif2} alt="Web Development" /></CollageItem>
-            <CollageItem data-label="Email Onboarding"><img src={CollageImage3} alt="UI/UX Design" /></CollageItem>
-            <CollageItem onClick={() => openNewTab('https://x.com/julia_codes/status/1924125662085804459')} data-label="Paywall Popup"><img src={CollageGif4} alt="Digital Art" /></CollageItem>
-            <CollageItem onClick={() => openNewTab('https://x.com/julia_codes/status/1924900935517503999')} data-label="Navigation Collapse"><img src={CollageGif5} alt="Brand Identity" /></CollageItem>
+            <CollageItem onClick={() => openNewTab('https://senbix.com')} data-label="Senbix"><img src={CollageImage1} alt="Scheduler" /></CollageItem>
+            <CollageItem onClick={() => openNewTab('https://bloodlink.com')} data-label="Bloodlink"><img src={CollageGif2} alt="Web Development" /></CollageItem>
+            <CollageItem onClick={() => openNewTab('https://diamondsalon.com')} data-label="Diamond Salon"><img src={CollageImage3} alt="UI/UX Design" /></CollageItem>
+            <CollageItem onClick={() => openNewTab('https://insightminer.com')} data-label="Insight Miner"><img src={CollageGif4} alt="Digital Art" /></CollageItem>
+            <CollageItem onClick={() => openNewTab('https://avoin.com')} data-label="Avoin"><img src={CollageGif5} alt="Brand Identity" /></CollageItem>
         </CollageCont>
     );
 };
